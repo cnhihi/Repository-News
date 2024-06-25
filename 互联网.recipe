@@ -9,7 +9,6 @@ class BasicUserRecipe1719284774(AutomaticNewsRecipe):
     auto_cleanup   = True
 
     feeds          = [
-        ('36氪', 'https://rss.aishort.top/?type=36kr'),
         ('IT之家', 'http://www.ithome.com/rss/'),
         ('爱范儿', 'https://www.ifanr.com/feed/rss'),
     ]
