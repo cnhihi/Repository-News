@@ -3,7 +3,8 @@
 from calibre.web.feeds.news import AutomaticNewsRecipe
 
 class BasicUserRecipe1719284774(AutomaticNewsRecipe):
-    title          = '互联网'
+    title          = '互联网每日资讯'
+    __author__ = '钱明' 
     oldest_article = 1
     max_articles_per_feed = 10
     auto_cleanup   = True
